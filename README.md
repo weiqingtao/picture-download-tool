@@ -17,9 +17,9 @@ download.downloadImage(options)
 
 ```javascript
 const options = {
-    url : Picture URL,
-    dist: download dir,The default is /public/image/
-    fileName: download imgae name, The default imageName YYYYMMDDHHmmss+random
-}
-download(options)
+  url: "", //Picture URL,
+  dist: "", //download dir,The default is /public/image/
+  fileName: "", // download imgae name, The default imageName YYYYMMDDHHmmss+random
+};
+download(options);
 ```
