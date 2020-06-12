@@ -7,5 +7,9 @@
     "randomstring": "^1.1.5",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiqingtao/picture-download-tool"
   }
 }
