@@ -3,8 +3,8 @@
 ## USAGE
 
 ```javascript
-npm install picture-download-tool
-const download = require("picture-download-tool")
+npm install picture_downloader_tool
+const download = require("picture_downloader_tool")
 const options  ={
     url:"https://pics7.baidu.com/feed/377adab44aed2e7387397e0fe9ee688d86d6fa33.png?token=88667e1eef153863ca89e6827d806ca3",
      dist:process.cwd(),
@@ -21,5 +21,5 @@ const options = {
   dist: "", //download dir,The default is /public/image/
   fileName: "", // download imgae name, The default imageName YYYYMMDDHHmmss+random
 };
-download(options);
+download.downloadImage(options);
 ```

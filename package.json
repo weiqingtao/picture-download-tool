@@ -1,6 +1,6 @@
 {
-  "name": "picture_download_tool",
-  "version": "1.0.0.",
+  "name": "picture_downloader_tool",
+  "version": "1.0.1",
   "dependencies": {
     "fs-extra": "^9.0.1",
     "moment": "^2.26.0",
